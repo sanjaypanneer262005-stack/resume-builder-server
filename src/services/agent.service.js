@@ -5,7 +5,7 @@ import * as aiService from './ai.service.js';
 
 // Initialize the model
 const model = new ChatGoogleGenerativeAI({
-  model: 'gemini-2.5-flash',
+  model: 'gemini-2.5-flash-lite',
   apiKey: process.env.GEMINI_API_KEY,
 });
 
